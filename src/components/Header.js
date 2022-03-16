@@ -73,6 +73,17 @@ img {
 span {
     font-size: 13px;
     letter-spacing: 1.42px;
+    position: relative;
+
+    &:after {
+        content: "";
+        height: 2px;
+        background: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -6px;
+    }
 }
 `
 
