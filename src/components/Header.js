@@ -106,5 +106,9 @@ a {
         height: 60px;
         border-radius: 50%; 
         cursor: pointer;
+        &:hover {
+            transform: scale(1.05);
+            
+        }
 
     `
