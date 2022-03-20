@@ -4,7 +4,6 @@ import ImgSlider from './ImgSlider'
 import Movies from './Movies'
 import Viewers from './Viewers'
 
-
 function Home() {
   return (
     <div>
